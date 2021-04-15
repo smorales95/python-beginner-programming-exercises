@@ -1,6 +1,6 @@
 import random
 
-def get_color(color_number=4):
+def get_color(color_number):
     # making sure is a number and not a string
     color_number = int(color_number)
 
@@ -19,6 +19,9 @@ def get_allStudentColors():
     example_color = 1
     students_array = []
     #your loop here
+    for x in range(9):
+        print(get_color(random.randint(1,4)))
+
 
 
 
